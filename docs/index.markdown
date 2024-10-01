@@ -19,13 +19,19 @@ Clinvar missense csv file
 
 1:
 
+#
 gnomAD missense csv file
 
 1: Navigate to https://gnomad.broadinstitute.org/ with Chrome or other web browser
+
 2: Type gene name into search like 'TSC2'
+
 3: Scroll down and just above 'configure table' button is a checkbox for 'Missense/inframe indel' Click the only button to the right
+
 4: Click 'Export variants to CSV' button
+
 5: (optional) rename file to something like gnomADmis_GeneName_DATE.csv
+
 6: upload csv to shiny app CliPEpy_1 to design epegRNA libraries
 
 If you have any questions or run into issues with any of the shiny apps, please contact jeffrey [dot] calhoun [at] northwestern [dot] edu.</p>
