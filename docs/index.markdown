@@ -5,7 +5,7 @@
 layout: home
 ---
 
-![image](https://github.com/calhoujd/calhoujd.github.io/blob/main/cliPE_Logo_small-01.png)
+![image](https://github.com/calhoujd/calhoujd.github.io/blob/0e6b672a17881c58173847783af4cb406863f881/cliPE_Logo_small-01.png)
 
 Welcome to the homepage for curated loci prime editing (cliPE) method resources!
 
