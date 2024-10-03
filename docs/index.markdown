@@ -7,19 +7,19 @@ layout: home
 
 ![image](https://github.com/calhoujd/calhoujd.github.io/blob/0e6b672a17881c58173847783af4cb406863f881/cliPE_Logo_small-01.png?raw=true)
 
-# H1
-Welcome to the homepage for curated loci prime editing (cliPE) method resources!
+# Welcome to the homepage for curated loci prime editing (cliPE) method resources!
 
-CliPE companion Shiny apps:
+## CliPE companion Shiny apps:
 
 Click [here](https://www.example.com) to access the CliPEpy_1 shiny app for designing your cliPE libraries and epegRNA architectures for screening
 
 Click [here](https://www.example.com) to access the CliPEr_1 shiny app for [TEXT]
 
+---
+
 Some of the shiny apps above require specific input files, see instructions here:
 
-#
-Clinvar missense tsv file
+### Clinvar missense tsv file
 
 1. Navigate to https://www.ncbi.nlm.nih.gov/clinvar/ with Chrome or other web browser
 
@@ -33,8 +33,7 @@ Clinvar missense tsv file
 
 6. upload tsv to shiny app CliPEpy_1 to design epegRNA libraries
 
-#
-gnomAD missense csv file
+### gnomAD missense csv file
 
 1. Navigate to https://gnomad.broadinstitute.org/ with Chrome or other web browser
 
