@@ -5,7 +5,7 @@
 layout: home
 ---
 
-![image](/docs/cliPE_Logo_small_RGB-01.jpg)
+![image](/docs/cliPE_Logo_small-01.png)
 
 Welcome to the homepage for curated loci prime editing (cliPE) method resources!
 
@@ -48,4 +48,3 @@ gnomAD missense csv file
 6. upload csv to shiny app CliPEpy_1 to design epegRNA libraries
 
 If you have any questions or run into issues with any of the shiny apps, please contact jeffrey [dot] calhoun [at] northwestern [dot] edu.</p>
-
