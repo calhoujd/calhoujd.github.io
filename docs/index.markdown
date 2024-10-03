@@ -7,13 +7,14 @@ layout: home
 
 ![image](https://github.com/calhoujd/calhoujd.github.io/blob/0e6b672a17881c58173847783af4cb406863f881/cliPE_Logo_small-01.png?raw=true)
 
+# H1
 Welcome to the homepage for curated loci prime editing (cliPE) method resources!
 
 CliPE companion Shiny apps:
 
-Click here to access the CliPEpy_1 shiny app for designing your cliPE libraries and epegRNA architectures for screening
+Click [here](https://www.example.com) to access the CliPEpy_1 shiny app for designing your cliPE libraries and epegRNA architectures for screening
 
-Click here to access the CliPEr_1 shiny app for TEXT
+Click [here](https://www.example.com) to access the CliPEr_1 shiny app for [TEXT]
 
 Some of the shiny apps above require specific input files, see instructions here:
 
