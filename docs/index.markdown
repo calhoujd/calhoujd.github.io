@@ -5,7 +5,7 @@
 layout: home
 ---
 
-![cliPE logo | inspired by the classic Clippy mascot for Microsoft Office, but with DNA strands instead of metal for the paperclip](/Users/jdc411/Documents/GitHub/calhoujd.github.io/cliPE_Logo_small_CMYK-01.jpg)
+![Image | inspired by the classic Clippy mascot for Microsoft Office, but with DNA strands instead of metal for the paperclip]({{ site.baseurl }}/cliPE_Logo_small_CMYK-01.jpg)
 
 Welcome to the homepage for curated loci prime editing (cliPE) method resources!
 
