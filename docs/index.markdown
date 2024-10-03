@@ -7,6 +7,8 @@ layout: home
 
 [Image | inspired by the classic Clippy mascot for Microsoft Office, but with DNA strands instead of metal for the paperclip](cliPE_Logo_small_CMYK-01.jpg)
 
+[Image]({{"/docs/cliPE_Logo_small_CMYK-01.jpg", | relative_url }})
+
 Welcome to the homepage for curated loci prime editing (cliPE) method resources!
 
 CliPE companion Shiny apps:
