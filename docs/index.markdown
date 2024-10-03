@@ -33,6 +33,8 @@ Some of the shiny apps above require specific input files, see instructions here
 
 6. upload tsv to shiny app CliPEpy_1 to design epegRNA libraries
 
+---
+
 ### gnomAD missense csv file
 
 1. Navigate to https://gnomad.broadinstitute.org/ with Chrome or other web browser
@@ -46,5 +48,7 @@ Some of the shiny apps above require specific input files, see instructions here
 5. (optional) rename file to something like gnomADmis_GeneName_DATE.csv
 
 6. upload csv to shiny app CliPEpy_1 to design epegRNA libraries
+
+---
 
 If you have any questions or run into issues with any of the shiny apps, please contact jeffrey [dot] calhoun [at] northwestern [dot] edu.</p>
