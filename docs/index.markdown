@@ -5,7 +5,7 @@
 layout: home
 ---
 
-![image](https://github.com/calhoujd/calhoujd.github.io/blob/0e6b672a17881c58173847783af4cb406863f881/cliPE_Logo_small-01.png?raw=true)
+![image](https://github.com/calhoujd/calhoujd.github.io/blob/cbedbd7c42b3d5d06731594f29379f6ec3284a10/docs/cliPE_methodOverview.jpg?raw=true)
 
 # Welcome to the homepage for curated loci prime editing (cliPE) method resources!
 
@@ -57,4 +57,9 @@ Some of the shiny apps above require specific input files, see instructions here
 
 ---
 
-If you have any questions or run into issues with any of the shiny apps, please contact jeffrey [dot] calhoun [at] northwestern [dot] edu.</p>
+If you have any questions or run into issues with any of the shiny apps, please contact jeffrey [dot] calhoun [at] northwestern [dot] edu.
+
+---
+
+![image](https://github.com/calhoujd/calhoujd.github.io/blob/0e6b672a17881c58173847783af4cb406863f881/cliPE_Logo_small-01.png?raw=true)
+
