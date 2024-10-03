@@ -5,7 +5,7 @@
 layout: home
 ---
 
-![Image]({{ site.baseurl }}docs/cliPE_Logo_small_CMYK-01.jpg)
+![image](/docs/cliPE_Logo_small_RGB-01.jpg)
 
 Welcome to the homepage for curated loci prime editing (cliPE) method resources!
 
