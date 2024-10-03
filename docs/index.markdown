@@ -17,6 +17,10 @@ Click [here](https://www.example.com) to access the CliPEpy_1 shiny app for desi
 
 Click [here](https://www.example.com) to access the CliPEr_1 shiny app for [TEXT]
 
+Click [here](https://calhoujd12.shinyapps.io/cliper_2_shiny_app/) to access the CliPEr_2 shiny app for performing final data analysis using random effect modeling of replicate experiments. Note: You can download 'Book2_e17_3xreps.csv' or 'Book2_e17_4xreps.csv' from github repo [here](https://github.com/calhoujd/calhoujd.github.io/tree/gh-pages) as example files with the correct formatting for the shiny app.
+
+Click [here](https://www.example.com) to access the CliPEr_3 shiny app for [TEXT]
+
 ---
 
 Some of the shiny apps above require specific input files, see instructions here:
