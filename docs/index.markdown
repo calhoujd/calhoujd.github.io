@@ -9,6 +9,14 @@ layout: home
 
 # Welcome to the homepage for curated loci prime editing (cliPE) method resources!
 
+## If you want to learn more about cliPE, here are some links:
+
+1. Jeff's MSS24 talk archived on Youtube --> click [here](https://youtu.be/BRmVPsm1K7Y?si=jaTcJvBxC7rk4InR)
+
+2. cliPE preprint --> coming soon to a preprint server near you
+
+3. cliPE protocols.io resources --> hopefully coming soon
+
 ---
 
 ## CliPE companion Shiny apps:
