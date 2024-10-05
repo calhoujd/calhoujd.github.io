@@ -1,0 +1,25 @@
+[Kit]			
+Name	AMPseq_barcode_library		
+Description	everything		
+IndexStrategy	All		
+ReadType	All		
+DefaultReadLength1	150		
+DefaultReadLength2	150		
+			
+[Resources]			
+Name	Type	Format	Value
+			
+[Indices]			
+Name	Sequence	IndexReadNumber	
+AMPSEQ1	TAAGGCGAATCTCGT	1	
+AMPSEQ2	CGTACTAGATCTCGT	1	
+AMPSEQ3	AGGCAGAAATCTCGT	1	
+AMPSEQ4	TCCTGAGCATCTCGT	1	
+AMPSEQ5	GGACTCCTATCTCGT	1	
+AMPSEQ6	TAGGCATGATCTCGT	1	
+AMPSEQ7	CTCTCTACATCTCGT	1	
+AMPSEQ28	TATGCAGTGT	2	
+AMPSEQ29	TACTCCTTGT	2	
+			
+[SupportedModules]			
+GenerateFastQWorkflow			
