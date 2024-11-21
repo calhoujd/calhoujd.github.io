@@ -1,0 +1,13 @@
+name: cliPEr_1_shiny_app
+title: cliPEr_1_shiny_app
+username: calhoujd12
+account: calhoujd12
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13417393
+bundleId: 9399024
+url: https://calhoujd12.shinyapps.io/cliPEr_1_shiny_app/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: troubleshooting.R
