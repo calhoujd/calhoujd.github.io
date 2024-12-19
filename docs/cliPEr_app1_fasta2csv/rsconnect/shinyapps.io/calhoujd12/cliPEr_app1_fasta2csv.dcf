@@ -1,0 +1,12 @@
+name: cliPEr_app1_fasta2csv
+title: cliPEr_app1_fasta2csv
+username: calhoujd12
+account: calhoujd12
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13623810
+bundleId: 9545893
+url: https://calhoujd12.shinyapps.io/cliPEr_app1_fasta2csv/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
