@@ -7,10 +7,10 @@ library(Biostrings)
 
 # read in input file 1 ## this is the output from app 2 with enrichment/functional scores and SE
 ## oh shoot this is e37 ### need to find/make an e37 dictionary
-df <- read.csv('/Users/jdc411/Downloads/data-2024-11-21.csv')
+df <- read.csv('/Users/jeffreycalhoun/Downloads/data-2024-12-20.csv')
 
 # read in input file 2 ## this should be the dictionary file from cliPEpy_1 with variant names and k-mers
-df2 <- read.csv('/Users/jdc411/Downloads/TSC2_e37_kmer_dictionary.csv')
+df2 <- read.csv('/Users/jeffreycalhoun/Downloads/TSC2_e37_kmer_dictionary.csv')
 
 
 # initiate empty list

@@ -4,9 +4,10 @@ username: calhoujd12
 account: calhoujd12
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
-appId: 13624904
-bundleId: 9546816
+appId: 13629610
+bundleId: 9552626
 url: https://calhoujd12.shinyapps.io/cliPEr_app2_kmers2variants/
 version: 1
 asMultiple: FALSE
 asStatic: FALSE
+ignoredFiles: troubleshooting.R
