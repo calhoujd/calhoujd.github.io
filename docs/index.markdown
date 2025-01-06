@@ -91,6 +91,10 @@ Primer 2: adapter + reverse target primer (5’- GTCTCGTGGGCTCGGAGATGTGTATAAGAGA
 
 ---
 
+A visual guide with additional information about ordering primers and oligo pools is available here via Google Slides: [link](https://docs.google.com/presentation/d/19ulsfNYrS6wXWAH6BziDBEWpf9DCic-j5-a2ZupwefA/edit?usp=sharing)
+
+---
+
 Amplicon sequencing of human genomic DNA (cliPE Module 6)
 
 If there are a small number of libraries to sequence, it can be economically advantageous to submit each library separately to an amplicon sequencing service such as MGH CCIB DNA Core’s Complete Amplicon Sequencing service or GENEWIZ from Azenta Amplicon-EZ rather than pooling indexed libraries for sequencing at a core facility or external sequencing vendor such as Novogene, BGI, etc. It is worth estimating the cost for each option to determine which method will be best. For example, our in-house Illumina MiniSeq runs cost approximately $1200 for 8M reads, sufficient to run up to ~32 libraries with a coverage target of 200,000 reads per sample. Based on current prices, it is more economical to multiplex libraries on the MiniSeq only when we have more than ~24 total libraries. Using an amplicon sequencing service has particular utility for QC of epegRNA plasmid libraries and initial MAVE optimization on a small number of epegRNA libraries. We recommend multiplexing when there are sufficient libraries, which will typically be a final pool of all of the biological replicates of selected and control conditions for multiple epegRNA libraries. As each library only requires a minimum of 200,000 reads, it is cost-effective to run up to hundreds of multiplexed libraries in a single sequencing run. 
