@@ -107,7 +107,19 @@ Our goal in designing the Shiny apps was to keep the barrier for entry for cliPE
 
 ---
 
-If you have any questions or run into issues with any of the shiny apps, please contact jeffrey [dot] calhoun [at] northwestern [dot] edu.
+If you have any questions or run into issues with any of the shiny apps, please contact jeffrey [dot] calhoun [at] northwestern [dot] edu. Alternativel, @calhoujd on Twitter/X, or @calhoujd.bsky.social on Bluesky
+
+---
+
+Also want to give a shout out to:
+
+Carina Biar: Carina worked with me on developing cliPE as an NU undergrad and also a gap year technician. Much of what you see on this page and the preprints linked above are due to her hard work, thank you Carina!
+
+xinkblot: Valerie at xinkblot really knocked the cliPE logo design out of the park! If you want your very own awesome logo, check out the xinkblot Etsy store: [here](https://www.etsy.com/shop/xinkblot) 
+
+Funding: huge thank you to the American Epilepsy Society for the Junior Investigator Award which funded our TSC2 MAVE and also cliPE development
+
+Others: thanks to awesome resources including Github, Plasmidsaurus, Heroku, shinyapps.io and others for streamlining our workflows and enabling the sharing of code and the cliPE companion Shiny apps
 
 ---
 
