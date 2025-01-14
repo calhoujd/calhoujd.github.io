@@ -121,7 +121,7 @@ Our goal in designing the Shiny apps was to keep the barrier for entry for cliPE
 
 ### xinkblot: Valerie at xinkblot really knocked the cliPE logo design out of the park! If you want your very own awesome logo, check out the xinkblot Etsy store: [here](https://www.etsy.com/shop/xinkblot) 
 
-### Funding: huge thank you to the American Epilepsy Society for the Junior Investigator Award which funded our TSC2 MAVE and also cliPE development
+### Funding: huge thank you to the [American Epilepsy Society] (https://aesnet.org/) for the Junior Investigator Award which funded our TSC2 MAVE and also cliPE development
 
 ### Others: thanks to awesome resources including Github, Plasmidsaurus, Heroku, shinyapps.io and others for streamlining our workflows and enabling the sharing of code and the cliPE companion Shiny apps
 
