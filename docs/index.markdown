@@ -93,7 +93,7 @@ Primer 2: adapter + reverse target primer (5’- GTCTCGTGGGCTCGGAGATGTGTATAAGAGA
 
 ---
 
-A visual guide with additional information about ordering primers and oligo pools is available here via Google Slides: [link](https://docs.google.com/presentation/d/19ulsfNYrS6wXWAH6BziDBEWpf9DCic-j5-a2ZupwefA/edit?usp=sharing)
+## A visual guide with additional information about ordering primers and oligo pools is available here via Google Slides: [link](https://docs.google.com/presentation/d/19ulsfNYrS6wXWAH6BziDBEWpf9DCic-j5-a2ZupwefA/edit?usp=sharing)
 
 ---
 
@@ -113,17 +113,17 @@ Our goal in designing the Shiny apps was to keep the barrier for entry for cliPE
 
 ---
 
-Shout out section to thank:
+## Shout out section to thank folks:
 
-Carina Biar: Carina worked with me on developing cliPE as an NU undergrad and also a gap year technician. Much of what you see on this page and the preprints linked above are due to her hard work, thank you Carina!
+### Carina Biar: Carina worked with me on developing cliPE as an NU undergrad and also a gap year technician. Much of what you see on this page and the preprints linked above are due to her hard work, thank you Carina!
 
-Nico Bodkin: As mentioned above, Nico did an awesome job designing and implementing the pegRNA Designer companion Shiny app. Check it out, link above. Also click [here](https://nicobodkin.com/) to check out Nico's webpage
+### Nico Bodkin: As mentioned above, Nico did an awesome job designing and implementing the pegRNA Designer companion Shiny app. Check it out, link above. Also click [here](https://nicobodkin.com/) to check out Nico's webpage
 
-xinkblot: Valerie at xinkblot really knocked the cliPE logo design out of the park! If you want your very own awesome logo, check out the xinkblot Etsy store: [here](https://www.etsy.com/shop/xinkblot) 
+### xinkblot: Valerie at xinkblot really knocked the cliPE logo design out of the park! If you want your very own awesome logo, check out the xinkblot Etsy store: [here](https://www.etsy.com/shop/xinkblot) 
 
-Funding: huge thank you to the American Epilepsy Society for the Junior Investigator Award which funded our TSC2 MAVE and also cliPE development
+### Funding: huge thank you to the American Epilepsy Society for the Junior Investigator Award which funded our TSC2 MAVE and also cliPE development
 
-Others: thanks to awesome resources including Github, Plasmidsaurus, Heroku, shinyapps.io and others for streamlining our workflows and enabling the sharing of code and the cliPE companion Shiny apps
+### Others: thanks to awesome resources including Github, Plasmidsaurus, Heroku, shinyapps.io and others for streamlining our workflows and enabling the sharing of code and the cliPE companion Shiny apps
 
 ---
 
