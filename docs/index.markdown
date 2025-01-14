@@ -13,9 +13,11 @@ layout: home
 
 1. Jeff's MSS24 talk archived on Youtube --> click [here](https://youtu.be/BRmVPsm1K7Y?si=jaTcJvBxC7rk4InR)
 
-2. cliPE preprint --> coming soon to a preprint server near you
+2. cliPE preprint available now on Arxiv (please note supplemental tables available at github repo) --> click [here](https://arxiv.org/abs/2501.04822)
 
-3. cliPE protocols.io resources --> hopefully coming soon
+3. cliPE Github repo --> click [here](https://github.com/calhoujd/calhoujd.github.io)
+
+4. cliPE protocols.io resources --> hopefully coming soon
 
 ---
 
@@ -65,10 +67,10 @@ Some of the shiny apps above require specific input files, see instructions here
 
 ---
 
-Due to limitations in manuscript formatting, there are a few topics we were unable to cover in the above preprint. Please see below for additional information on cliPE which may be helpful as you design your experiment:
+## Due to limitations in manuscript formatting, there are a few topics we were unable to cover in the above preprint. Please see below for additional information on cliPE which may be helpful as you design your experiment:
 
 ---
-Designing initial set of epegRNA architectures to screen, epegRNA libraries, and nicking gRNAs (cliPE Module 1)
+## Designing initial set of epegRNA architectures to screen, epegRNA libraries, and nicking gRNAs (cliPE Module 1)
 
 We have provided a Shiny app to streamline prime editing design. In one step, the Shiny app designs epegRNA libraries based on user input and outputs files including candidate epegRNA libraries, archetypal epegRNAs, and nicking gRNAs. It is important to consider at this stage how many epegRNA libraries will be targeted for the eventual cliPE experiment. Each epegRNA library typically targets one 42-45 bp region which allows editing of up to 15 codons. We target a goal of 15-30% overall editing efficiency for epegRNA libraries; initially, we observed this in about 50% of archetypal epegRNAs screened for TSC2.6 Ongoing work in our lab suggests that highly efficient epegRNAs may comprise 20-50% of designs. Our recommendation is to screen a minimum of 12 archetypal epegRNAs which will produce on average 3-6 epegRNA libraries which will be usable for cliPE. It may be desirable to screen more than 12 archetypal epegRNAs upfront to increase the probability of attaining enough epegRNA designs to proceed with library cloning.
 
@@ -78,11 +80,11 @@ The Shiny app takes basic information as input such as gene name and RefSeq tran
 
 ---
 
-Primer design: Sanger sequencing or low-depth LR sequencing
+## Primer design: Sanger sequencing or low-depth LR sequencing
 
 It is necessary to design primers using Primer3 (https://primer3.ut.ee/) or an equivalent primer design tool to amplify a relatively broad region containing  genome editing targets. These primers can be used to amplify these regions for subsequent sequencing to estimate editing rate. It is important to ensure that the primers do not bind too close to the site of editing, particularly for primer designs for Sanger sequencing, due to the extra noise in the first 25-35 bases of sequencing data. This is critical for the archetypal epegRNA screen (Module 2) and for validation of editing with subsequent epegRNAs. An amplicon size of 500-700 bp is optimal for Sanger sequencing, while amplicons of 800-1200 bp are optimal for LR sequencing. We routinely use Plasmidsaurus sequencing services for cost-effective LR sequencing with quick turnaround time, though other preferred vendors may offer similar services. Sanger sequencing reactions are typically less expensive ($4-5 per reaction), while LR sequencing ($15) provides a better estimate of prime editing efficiency.
 
-Primer design: high-depth amplicon sequencing
+## Primer design: high-depth amplicon sequencing
 
 It is further necessary to design primers to amplify the region of interest specifically (region overlapping RT template of epegRNA pool). It is critical to constrain the total amplicon size to be less than 250 bp to maximize read depth of the target region. Also, as above, it is important to ensure the primers do not overlap the region of interest to detect any small insertions and deletions (indels). If sequencing with a vendor such as MGH CCIB DNA Core’s Complete Amplicon Sequencing service or GENEWIZ from Azenta Amplicon-EZ, it is important to review the sample submission guidelines specific to the respective service. If sequencing in multiplex at a core facility or outside vendor (Module 6 option B), it is necessary when ordering these primers to append the appropriate Illumina adaptors to enable the barcoding in step 6B.5: 
 
@@ -95,25 +97,27 @@ A visual guide with additional information about ordering primers and oligo pool
 
 ---
 
-Amplicon sequencing of human genomic DNA (cliPE Module 6)
+## Amplicon sequencing of human genomic DNA (cliPE Module 6)
 
 If there are a small number of libraries to sequence, it can be economically advantageous to submit each library separately to an amplicon sequencing service such as MGH CCIB DNA Core’s Complete Amplicon Sequencing service or GENEWIZ from Azenta Amplicon-EZ rather than pooling indexed libraries for sequencing at a core facility or external sequencing vendor such as Novogene, BGI, etc. It is worth estimating the cost for each option to determine which method will be best. For example, our in-house Illumina MiniSeq runs cost approximately $1200 for 8M reads, sufficient to run up to ~32 libraries with a coverage target of 200,000 reads per sample. Based on current prices, it is more economical to multiplex libraries on the MiniSeq only when we have more than ~24 total libraries. Using an amplicon sequencing service has particular utility for QC of epegRNA plasmid libraries and initial MAVE optimization on a small number of epegRNA libraries. We recommend multiplexing when there are sufficient libraries, which will typically be a final pool of all of the biological replicates of selected and control conditions for multiple epegRNA libraries. As each library only requires a minimum of 200,000 reads, it is cost-effective to run up to hundreds of multiplexed libraries in a single sequencing run. 
 
 ---
 
-A note on resources to learn sufficient command line working knowledge for cliPE:
+## A note on resources to learn sufficient command line working knowledge for cliPE:
 
 Our goal in designing the Shiny apps was to keep the barrier for entry for cliPE as low as possible. Still, some basic knowledge of the Unix command line and executing software on Linux operating systems is required. There are many primers that can be completed in 1-2 hours to learn the requisite knowledge for completing Module 7; a number are linked to here: https://github.com/nuitrcs/bash_hpc_workshops.
 
 ---
 
-If you have any questions or run into issues with any of the shiny apps, please contact jeffrey [dot] calhoun [at] northwestern [dot] edu. Alternativel, @calhoujd on Twitter/X, or @calhoujd.bsky.social on Bluesky
+## If you have any questions or run into issues with any of the shiny apps, please contact jeffrey [dot] calhoun [at] northwestern [dot] edu. Alternativel, @calhoujd on Twitter/X, or @calhoujd.bsky.social on Bluesky
 
 ---
 
-Also want to give a shout out to:
+Shout out section to thank:
 
 Carina Biar: Carina worked with me on developing cliPE as an NU undergrad and also a gap year technician. Much of what you see on this page and the preprints linked above are due to her hard work, thank you Carina!
+
+Nico Bodkin: As mentioned above, Nico did an awesome job designing and implementing the pegRNA Designer companion Shiny app. Check it out, link above. Also click [here](https://nicobodkin.com/) to check out Nico's webpage
 
 xinkblot: Valerie at xinkblot really knocked the cliPE logo design out of the park! If you want your very own awesome logo, check out the xinkblot Etsy store: [here](https://www.etsy.com/shop/xinkblot) 
 
