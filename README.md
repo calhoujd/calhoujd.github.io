@@ -1,24 +1,9 @@
 # calhoujd.github.io
 
-Welcome to the homepage for curated loci prime editing (cliPE) method resources!
+Welcome to the github repository for curated loci prime editing (cliPE) method resources!
 
-CliPE companion Shiny apps:
+Here you will find sample scripts, code for the cliPEr Shiny apps, and demo data.
 
-Click here to access the CliPEpy_1 shiny app for designing your cliPE libraries and epegRNA architectures for screening
-
-
-Click here to access the CliPEr_1 shiny app for TEXT
-
-
-Some of the shiny apps above require specific input files, see instructions here:
-
-Clinvar missense csv file
-
-1:
-
-gnomAD missense csv file 
-
-1:
-
+Also make sure to visit the cliPE homepage (https://home.clipe-mave.org/) for important information, links to Shiny apps, and more.
 
 If you have any questions or run into issues with any of the shiny apps, please contact jeffrey [dot] calhoun [at] northwestern [dot] edu
