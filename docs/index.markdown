@@ -103,40 +103,43 @@ If there are a small number of libraries to sequence, it can be economically adv
 
 ## Amplicon sequencing protocol for library QC or pilot experiments (single PCR step)
 
-1.	Prepare amplicon sequencing library (or libraries) with a single PCR step without barcodes.
-NOTE: The protocols here and in step 11 are based around paired-end 150 bp short read sequencing with Illumina chemistry. We provide these protocols as they have been optimized throughout the cliPE method design and testing. It is important to note that other short read technologies exist and are becoming widely available, and that other run structures (i.e., a single-end 200 bp run at higher read depth) may yield similar or identical results. Users are welcome to convert the amplicon sequencing protocols provided herein to other sequencing platforms such as those produced by Element Biosciences, Ultima Genomics, PacBio, Complete Genomics, and Oxford Nanopore. Many of these platforms have targeted amplicon sequencing workflows which should in most cases be compatible with the cliPE method. However, while we find Oxford Nanopore LR technology to have high utility for streamlined QC of cloned plasmids, libraries, and estimating editing of archetypal epegRNAs, we would not recommend this platform for high-depth amplicon sequencing for enrichment analysis. 
+Prepare amplicon sequencing library (or libraries) with a single PCR step without barcodes.  
+NOTE: The protocols here and in step 11 are based around paired-end 150 bp short read sequencing with Illumina chemistry. We provide these protocols as they have been optimized throughout the cliPE method design and testing. It is important to note that other short read technologies exist and are becoming widely available, and that other run structures (i.e., a single-end 200 bp run at higher read depth) may yield similar or identical results. Users are welcome to convert the amplicon sequencing protocols provided herein to other sequencing platforms such as those produced by Element Biosciences, Ultima Genomics, PacBio, Complete Genomics, and Oxford Nanopore. Many of these platforms have targeted amplicon sequencing workflows which should in most cases be compatible with the cliPE method. However, while we find Oxford Nanopore LR technology to have high utility for streamlined QC of cloned plasmids, libraries, and estimating editing of archetypal epegRNAs, we would not recommend this platform for high-depth amplicon sequencing for enrichment analysis.  
 CRITICAL: Use step 10 for smaller batch preparation when sequencing one or a small number of libraries. For libraries generated this way, sequencing will need to be performed by certain external vendors such as MGH CCIB DNA Core’s Complete Amplicon Sequencing service or GENEWIZ from Azenta Amplicon-EZ. These vendors offer sufficient read-depth and quick turnaround time, which can be helpful for QC as well as small pilot experiments to test editing efficiency of a single epegRNA or to optimize a selection methodology, for example. 
-a.	Design primers to amplify the region spanning the reverse transcription template of each epegRNA architecture. See above for advice on designing these primers. 
+
+1.	Design primers to amplify the region spanning the reverse transcription template of each epegRNA architecture. See above for advice on designing these primers. 
 NOTE: It is necessary to design primers to amplify each locus targeted for genome editing. Constraining the total amplicon size to be less than 250 bp, though not necessary, is recommended as it maximizes read depth of the target region. This design gives the largest overlapping region for read pairs. Also, as above, it is important to ensure the primers flank but do not directly overlap the region of interest to detect any small insertions and deletions (indels). If sequencing with a vendor such as MGH CCIB DNA Core’s Complete Amplicon Sequencing service or GENEWIZ from Azenta Amplicon-EZ, it is important to review the sample submission guidelines specific to the respective service. 
-b.	Extract gDNA from pellets of cells collected under selection conditions. Make sure to also extract gDNA from cell pellets without selection as a control. 
-c.	Set up PCR reaction to generate amplicons for targeted amplicon sequencing. After aliquoting 22 uL of mastermix in each tube of PCR strips, add 20-60 ng template gDNA (3 uL of 6.67-20 ng/uL). 
+2.	Extract gDNA from pellets of cells collected under selection conditions. Make sure to also extract gDNA from cell pellets without selection as a control. 
+3.	Set up PCR reaction to generate amplicons for targeted amplicon sequencing. After aliquoting 22 uL of mastermix in each tube of PCR strips, add 20-60 ng template gDNA (3 uL of 6.67-20 ng/uL).   
+  
+  PCR Reaction Mastermix  
+  Reagent	Amount  
+  2X iProof Mastermix	12.5 uL  
+  ampSeq_FwdPrimer (10 uM)	1.25 uL  
+  ampSeq_RevPrimer (10 uM)	1.25 uL  
+  ddH2O	To 22 uL total volume
 
-PCR Reaction Mastermix
-Reagent	Amount
-2X iProof Mastermix	12.5 uL
-ampSeq_FwdPrimer (10 uM)	1.25 uL
-ampSeq_RevPrimer (10 uM)	1.25 uL
-ddH2O	To 22 uL total volume
+  
+  PCR Cycling Conditions  
+  Steps	Temperature	Time  
+  Initial Denaturation	98 °C	3 min  
+  Denaturation	98 °C	20 sec  
+  Annealing	60 °C	20 sec  
+  Extension	72 °C	30 sec  
+  Repeat Denaturation, Annealing, and Extension steps for total of 30-35 cycles  
+  Final extension	72 °C	7 min  
+  Hold	4 °C forever  
+  
 
-PCR Cycling Conditions
-Steps	Temperature	Time	Cycles
-Initial Denaturation	98 °C	3 min
-Denaturation	98 °C	20 sec	
-Annealing	60 °C	20 sec	
-Extension	72 °C	30 sec	
-Repeat Denaturation, Annealing, and Extension steps for total of 30-35 cycles
-Final extension	72 °C	7 min
-Hold	4 °C	forever
-
-d.	Use size selection beads to remove primer dimer and prepare libraries for sequencing. AmpureXP size selection beads are routinely used to remove primer dimer and prepare NGS libraries for either subsequent PCR or for Illumina sequencing. 
-i.	Allow aliquots of AmpureXP beads to sit at RT for at least 30 min prior to use.
-ii.	Add 25 uL of DNA grade water to each 25 uL PCR reaction to bring the total volume to 50 uL. Add an equal volume (50 uL) of AmpureXP beads to bring the total volume to 100 uL and mix well by pipetting.
-iii.	After a 10 min incubation at RT, place on magnet for 5 min.
-iv.	Remove and discard supernatant, followed by two washes with 100-200 uL of 70% ethanol.
-v.	Allow beads to air dry for about 5 min.
-vi.	Add 21 uL of 1X TE and incubate for 5 min prior to placing tubes back on magnet.
-vii.	After 5 min of separation, pipette 20 uL of eluted DNA into a fresh tube. 
-e.	Use Qubit to quantify DNA concentration for each pool of amplicons, dilute to appropriate concentration, and submit for Illumina short-read sequencing.
+4.	Use size selection beads to remove primer dimer and prepare libraries for sequencing. AmpureXP size selection beads are routinely used to remove primer dimer and prepare NGS libraries for either subsequent PCR or for Illumina sequencing. 
+5.	Allow aliquots of AmpureXP beads to sit at RT for at least 30 min prior to use.
+6.	Add 25 uL of DNA grade water to each 25 uL PCR reaction to bring the total volume to 50 uL. Add an equal volume (50 uL) of AmpureXP beads to bring the total volume to 100 uL and mix well by pipetting.
+7.	After a 10 min incubation at RT, place on magnet for 5 min.
+8.	Remove and discard supernatant, followed by two washes with 100-200 uL of 70% ethanol.
+9.	Allow beads to air dry for about 5 min.
+10.	Add 21 uL of 1X TE and incubate for 5 min prior to placing tubes back on magnet.
+11.	After 5 min of separation, pipette 20 uL of eluted DNA into a fresh tube. 
+12.	Use Qubit to quantify DNA concentration for each pool of amplicons, dilute to appropriate concentration, and submit for Illumina short-read sequencing.
 
 ---
 
