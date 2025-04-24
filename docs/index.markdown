@@ -23,7 +23,9 @@ layout: home
 
 ## CliPE companion Shiny apps:
 
-Click [here](https://design.clipe-mave.org) to access the cliPEpy pegRNA Designer shiny app for designing your cliPE libraries and epegRNA architectures for screening (HUGE shoutout to Nico Bodkin for all his hard work building this Shiny app!)
+Click [here](https://design.clipe-mave.org) to access the cliPE epegRNA Designer shiny app for designing your cliPE libraries and epegRNA architectures for screening (HUGE shoutout to Nico Bodkin for all his hard work building this Shiny app!)
+
+We now have a development version of the epegRNA Designer app as well, please click [here](http://clipe-dev.fly.dev) to access it. Nico is continuing to add functionality like automatically pulling the Clinvar database. Please note this version of the app is in active development and may have bugs yet to be ironed out, use at your own discretion!
 
 Click [here](https://calhoujd12.shinyapps.io/cliPEr_app1_fasta2csv/) to access the cliPEr_app1_fasta2csv shiny app for converting the fasta output from jellyfish to csv
 
